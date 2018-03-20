@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 a {
   background-color: grey;
   border-radius: 5px;
@@ -17,23 +16,3 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: #66f;
 }
-=======
-a {
-  background-color: grey;
-  border-radius: 5px;
-  font-size: 120%;
-  font-weight: 550;
-  color: white;
-  padding: 4px 15px;
-  text-align: center;
-  display: inline-block;
-}
-
-a:link, a:visited {
-  text-decoration: none;
-}
-
-a:hover, a:active {
-  background-color: #66f;
-}
->>>>>>> 6e9c403e18d721e9d3640dbb3ffdbfdf94a0bdba
