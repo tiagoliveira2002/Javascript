@@ -3,11 +3,11 @@
 <head>
 <title>function repeat</title>
 <script>
-function repeat(times){
+function disturb(times,text){
   var result ="";
   var i = 0;
   for (i = 0; i< times ;i++){
-  result +="I will not disturb in class!  ";
+  result += text;
   }
   return result;
   }
@@ -15,7 +15,7 @@ function repeat(times){
 </head>
 <body>
 <script>
-document.write(repeat(100))
+document.write (disturb(100,"<h1>I will not disturb in class<h1>"))
 </script>
 </body>
 </html>
