@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+function repeatMe(){
+  var val = document.getElementById('inputField').value;
+  document.getElementById('result').innerHTML = val;
+}
+</script>
+
+<body>
+
+<h1>Ten Times More</h1>
+<p> Write in the text field and click the button.</p>
+
+<input type="text" id="inputField">
+<button onclick="repeatMe()">Repeat me!</button>
+
+<p> Output:</p>
+
+<div id="result">
+
+</div>
+
+</body>
+
+</html>
