@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<title>Multiply by ten</title>
 <script>
-function repeatMe(){
+function repeatMe(times){
   var val = document.getElementById('inputField').value;
   document.getElementById('result').innerHTML = val;
+  var max = 10;
+  var text = "";
+  for(var i = 0; i = max; i++){
+    text += val;
+
+  }
+
 }
 </script>
 
 <body>
 
-<h1>Ten Times More</h1>
-<p> Write in the text field and click the button.</p>
+<h1><b>Ten Times More</b></h1>
+<p><b> Write in the text field and click the button to multiply your text.</b></p>
 
 <input type="text" id="inputField">
-<button onclick="repeatMe()">Repeat me!</button>
+<button onclick="repeatMe()"><b>Repeat me!</b></button>
 
-<p> Output:</p>
+<p><b> Output:</b></p>
 
 <div id="result">
 
